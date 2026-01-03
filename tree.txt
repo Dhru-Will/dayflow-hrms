@@ -1,0 +1,81 @@
+next.config.js
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+tsconfig.json
+.gitignore
+
+app/
+  globals.css
+  layout.tsx
+  page.tsx
+  attendance/
+    page.tsx
+  employees/
+    page.tsx
+    [id]/
+      page.tsx
+  login/
+    page.tsx
+  profile/
+    page.tsx
+  signup/
+    page.tsx
+  time-off/
+    page.tsx
+
+components/
+  AIAssistantButton.tsx
+  AIAssistantPanel.tsx
+  AllLeaveRequests.tsx
+  AppLayout.tsx
+  AttendanceHistory.tsx
+  AttendanceManager.tsx
+  AvatarDropdown.tsx
+  EmployeeCard.tsx
+  EmployeeDetailModal.tsx
+  EmployeeDetailView.tsx
+  LeaveApplicationForm.tsx
+  LeaveStatusList.tsx
+  Navbar.tsx
+  RoleGuard.tsx
+  index.ts
+  profile/
+    PrivateInfoTab.tsx
+    ResumeTab.tsx
+    SalaryInfoTab.tsx
+    SecurityTab.tsx
+  ui/
+    Button.tsx
+    Card.tsx
+    EmptyState.tsx
+    Input.tsx
+    Loading.tsx
+    Tabs.tsx
+    index.ts
+
+constants/
+  aiAssistant.ts
+  attendance.ts
+  index.ts
+  timeOff.ts
+
+context/
+  AIAssistantContext.tsx
+  AuthContext.tsx
+
+hooks/
+  useEmployee.ts
+  useEmployees.ts
+
+services/
+  authService.ts
+  employeeService.ts
+
+types/
+  index.ts
+
+utils/
+  index.ts
+  roles.ts

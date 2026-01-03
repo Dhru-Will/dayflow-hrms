@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body {
+    @apply max-w-full overflow-x-hidden;
+    @apply bg-dark-bg text-dark-text;
+  }
+
+  body {
+    @apply antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+
+  a {
+    @apply cursor-pointer;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    @apply cursor-pointer;
+    font: inherit;
+  }
+
+  input {
+    font: inherit;
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-dark-text;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold text-dark-text;
+  }
+
+  h3 {
+    @apply text-xl font-semibold text-dark-text;
+  }
+
+  h4 {
+    @apply text-lg font-semibold text-dark-text;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
